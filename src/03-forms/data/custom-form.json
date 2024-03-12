@@ -1,0 +1,65 @@
+[
+	{
+		"label": "Nombre",
+		"name": "firstName",
+		"placeholder": "Jefferson",
+		"type": "input",
+		"value": "",
+		"validations": [
+			{
+				"type": "required"
+			},
+			{
+				"type": "minLength",
+				"value": 5
+			}
+		]
+	},
+	{
+		"label": "Apellido",
+		"name": "lastName",
+		"placeholder": "Aguilar",
+		"type": "input",
+		"value": "",
+		"validations": [
+			{
+				"type": "required"
+			},
+			{
+				"type": "minLength",
+				"value": 5
+			}
+		]
+	},
+	{
+		"label": "Correo",
+		"name": "email",
+		"placeholder": "example@gmail.com",
+		"type": "email",
+		"value": "",
+		"validations": [
+			{
+				"type": "required"
+			},
+			{
+				"type": "email"
+			}
+		]
+	},
+	{
+		"label": "Juego Favorito",
+		"name": "favoriteGame",
+		"type": "select",
+		"value": "",
+		"options": [
+			{ "id": "01", "label": "Valorant" },
+			{ "id": "02", "label": "Call od duty black ops 2" },
+			{ "id": "03", "label": "Resident evil 4" }
+		],
+		"validations": [
+			{
+				"type": "required"
+			}
+		]
+	}
+]
